@@ -4,6 +4,7 @@ const app = express();
 let fs = require('fs')
 
 // variables
+const port = process.env.PORT || 5000
 var file = fs.createReadStream('./public/pdfs/resume.pdf');
 var stat = fs.statSync('./public/pdfs/resume.pdf');
 
@@ -16,4 +17,4 @@ app.get('/', function (req, res) {
 
 // app.set("view engine", "ejs");
 
-app.listen(process.env.PORT || 3000, () => console.log(`app listening on port ${port}`));
+app.listen(port, () => console.log(`app listening on port ${port}`));
