@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-express-pdf",
+  "version": "1.0.0",
+  "description": "\"# gatsby-express-pdf\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronBP95/gatsby-express-pdf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronBP95/gatsby-express-pdf/issues"
+  },
+  "homepage": "https://github.com/ronBP95/gatsby-express-pdf#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
